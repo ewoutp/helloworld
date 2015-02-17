@@ -1,6 +1,6 @@
+image: ewoutp/dind
 env:
   - CI=drone
 script:
-  - docker -v
-  - make
+  - ./build.sh
 
