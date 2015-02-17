@@ -1,0 +1,6 @@
+image: ewoutp/dind
+env:
+  - CI=drone
+script:
+  - ./build.sh
+
