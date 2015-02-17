@@ -1,0 +1,6 @@
+env:
+  - CI=drone
+script:
+  - docker -v
+  - make
+
